@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(153, 209, 234);
+}
+
+@font-face {
+  font-family: "Cooper Black Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cooper Black Regular"), url("/assets/COOPBL.woff") format("woff");
+}
+
+.title-container {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Cooper Black Regular";
+  font-size: 80px;
+}
+
+.main-container {
+  margin-top: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.grid-container {
+  width: 28%;
+  height: 80%;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.left-a {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.left-b {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-c {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-d {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.left-e {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.left-f {
+  display: flex;
+}
+
+.left-g {
+  display: flex;
+  align-items: center;
+}
+
+.left-b-r {
+  display: flex;
+  align-items: center;
+}
+
+.left-c-r {
+  display: flex;
+}
+
+.left-d-r {
+  display: flex;
+}
+
+.left-e-r {
+  display: flex;
+  align-items: center;
+}
+
+.left-f-r {
+  display: flex;
+}
+
+.left-g-r {
+  display: flex;
+  align-items: center;
+}
